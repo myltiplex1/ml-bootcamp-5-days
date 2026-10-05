@@ -1,7 +1,7 @@
 # 🤖 Machine Learning Bootcamp — 5 Days, Hands-on
 
 A complete, practical **5-day introduction to machine learning** for undergraduate (200-level) engineering students.
-Every day has **slides**, **Google Colab notebooks** that run in the browser with real, popular datasets, and **speaker notes** for the instructor.
+Every day has **slides** and **Google Colab notebooks** that run in the browser with real, popular datasets.
 
 From your first model to deep learning, computer vision, TinyML on a $5 chip, reinforcement learning and generative AI — all in 15 hours.
 
@@ -25,16 +25,16 @@ Each day is 3 hours: short slide blocks alternate with hands-on Colab blocks (th
 
 No installation needed — all you need is a browser and a Google account. Every dataset downloads automatically.
 
-## 🧑‍🏫 For instructors
+## 📁 Folder layout
 
 Each day folder contains:
 ```
 dayN-.../
-├── notebooks/        Colab notebooks (tested end to end)
-├── slides/           the slide deck (PDF)
-└── speaker-notes/    what to say per slide, timings, running order, expected notebook outputs
+├── README.md          what the day covers + Open in Colab buttons
+├── colab_notebooks/   Colab notebooks (tested end to end)
+└── slides&note/       the slide deck (PDF)
 ```
-The speaker notes include a minute-by-minute **running order** (which slide, which notebook, when) and the real output of every notebook, so you know what students should see.
+(Day 1's notebook folder is called `colab_notebook`.)
 
 ## 🧰 Tools and libraries
 
